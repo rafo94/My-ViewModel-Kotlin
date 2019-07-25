@@ -17,7 +17,7 @@ class UserAdapter : RecyclerView.Adapter<UserAdapter.UserHolder>() {
         )
     }
 
-    override fun onBindViewHolder(p0: UserAdapter.UserHolder, p1: Int) {
+    override fun onBindViewHolder(p0: UserHolder, p1: Int) {
         p0.bind(users[p1])
     }
 

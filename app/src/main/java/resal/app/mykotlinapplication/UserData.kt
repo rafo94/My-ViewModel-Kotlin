@@ -2,18 +2,21 @@ package resal.app.mykotlinapplication
 
 object UserData {
 
-    fun getUsers() = listOf<User>(
+    fun getUsers() = listOf(
         User("Valod Valodyan", "designer"),
         User("Hrant Hrantyan", "project meneger"),
         User("Aram Minasyan", "programmer"),
         User("Valod Valodyan", "Lorem Ipsum is simply dummy text of the printing")
     )
 
-    fun getAnotherUsers() = listOf<User>(
+    fun getAnotherUsers() = listOf(
         User("Gevor Varosyan", "Lorem Ipsum has been the industry's "),
         User("Hrant Xaribyan", "It was popularised in the 1960s with the release"),
         User("Aram Minasyan", "It has survived not only five centuries"),
-        User("Aram Minasyan", "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary"),
+        User(
+            "Aram Minasyan",
+            "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary"
+        ),
         User("Aram Minasyan", "making this the first true generator on the Internet."),
         User("Aram Minasyan", "It uses a dictionary of over 200 Latin words"),
         User("Aram Minasyan", "Lorem Ipsum comes from sections 1.10.32 and 1.10.33"),
